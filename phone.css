@@ -1,0 +1,66 @@
+/* css for assignment 1*/
+
+body{
+  padding: 30px 10px;
+}
+
+.outerdiv{
+
+  margin: auto;
+  width: 40%;
+  padding: 4px 4px;
+  background-color: #CAC9C8;
+}
+
+.btns,.btns1{
+	width: 100%;
+	height: 50px;
+	white-space: normal;
+	word-wrap: normal;
+	overflow: hidden;
+
+}
+.btn_active,.whiteback{
+	background-color: #ffffff;
+}
+.btns2{
+	width: 100%;
+	white-space: normal;
+	word-wrap: normal;
+	overflow: hidden;
+}
+.keypadrow{
+	background-color: #FCFCFC;
+	margin: 0 auto;
+}
+
+.tabcol{
+	width: 32%;
+	margin: 0 auto;
+}
+.keypadcol{
+	width: 29%;
+	margin: 8px auto;
+}
+.lstcolrow{
+	width: 98%;
+	margin: 8px 1%;
+}
+.lstcollft{
+	width: 45%;margin: 8px 4% 8px 1%;float: left;
+}
+.lstcolrgt{
+	width: 45%;margin: 8px 1% 8px 4%;float: right;
+}
+.form{
+	width: 96%;
+	margin: 10px auto;
+}
+
+.form-items{
+	width: 60%;
+	margin: 16px 20%;
+}
+.form-input{
+	width: 100%;
+}
