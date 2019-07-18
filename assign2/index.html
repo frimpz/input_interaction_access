@@ -1,0 +1,211 @@
+<html>
+
+	<head>
+		<title> Assignment 2</title>
+			<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="phone.css">
+	</head>
+
+	<body>
+
+<div class="outerdiv">
+<!-- tabs div contains the tabs-->
+		<div class="pure-g tabs_row" id="tabs_id">
+				
+			<div class="pure-u-1-4 tabcol btn_active" id="dialer_tab_div">
+				<button class=" pure-button  btns_sfont" id="dialer_tab">Dialer</button>
+			</div>
+			<div class="pure-u-1-4 tabcol" id="contact_tab_div">
+				<button class=" pure-button btns_sfont" id="contact_tab">Contact List</button>
+			</div>
+			<div class="pure-u-1-4 tabcol" id="add_tab_div">
+				<button class=" pure-button btns_sfont" id="add_tab">Add Contact</button>
+			</div>
+			<div class="pure-u-1-4 tabcol" id="gesture_tab_div">
+				<button class=" pure-button btns_sfont" id="gesture_tab">Test Gestures</button>
+			</div>
+
+		</div>
+
+
+<!-- content div contains all three different fragments-->
+<div id="_dialer" class="fragment">
+
+	<p class="header">Dialer</p>
+
+		<div class="top">
+			<form class="pure-form ">
+				<input class="pure-input-1" style="border: none;
+	            box-shadow: none;" id="_screen" type="tel" maxlength="15" placeholder="+1 256 899 0981"/>
+			</form>
+		</div>	
+			
+		<div class="pure-g bottom">
+			<div class="pure-u-1-3 keypadcol">
+				<button class="button-large pure-button no_btns" value="1" id="_1">1</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="2" id="_2">2</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="3" id="_3">3</button>
+			</div>
+			<div class="pure-u-1-3 keypadcol">
+				<button class="button-large pure-button no_btns" value="4" id="_4">4</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="5" id="_5">5</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="6" id="_6">6</button>
+			</div>
+			<div class="pure-u-1-3 keypadcol">
+				<button class="button-large pure-button no_btns" value="7" id="_7">7</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="8" id="_8">8</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="9" id="_9">9</button>
+			</div>
+			<div class="pure-u-1-3 keypadcol">
+				<button class="button-large pure-button no_btns" value="*" id="_star">*</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="0" id="_0">0</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="#" id="_hash">#</button>
+			</div>
+			<div class="pure-u-1 ">
+				<div class="pure-u-1-2 lstcollft" style="float: left;">
+					<button class="button-large pure-button btns_sfont" id="_dial">Dial</button>
+				</div>	
+				<div class="pure-u-1-2 lstcolrgt" style="float:right;">	
+					<button class="button-large pure-button btns_sfont" id="_clear">Clear</button>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class="fragment " id="_contact">
+
+	<p class="header">Contact List</p>
+
+		<div class="pure-g contact_bottom">
+
+			<div class="pure-u-1 contacts">
+				<button class="button-large pure-button" id="idName">Jean Grey </button>
+			</div>	
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button" id="idName">Meemaw</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName"> Keith Green</button>
+			</div>	
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Tyler Perry</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Sheldon Cooper</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Georgie</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Scoot Fowler</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">bernadette rostenkowski</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Xavier rajesh Koothrappali</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Robert Drake</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Leonard Nimoy</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Leonard Hofstadter</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">William Shatner's</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Penny</button>
+			</div>
+			<div class="pure-u-1 contacts">	
+				<button class="button-large pure-button 2" id="idName">Howard Wolowitz</button>
+			</div>	
+		</div>
+</div>
+
+<div class="fragment" id="_add">
+
+	<p class="header">Add Contact</p>
+
+	<div class="pure-g bottom">
+
+		<form class="pure-form pure-form-stacked pure-u-1" id="_addform">
+
+		    <div class="form-items"> 
+		        <label for="name" class="form-input header">Name</label>
+		        <input id="name" class="form-input" type="text" placeholder="Jane Smith">
+		    </div>
+
+		    <div class="form-items">
+		        <label for="phone_no" class="form-input header">Phone Number</label>
+		        <input id="phone_no" class="form-input" type="tel" placeholder="123-456-7890" >
+		    </div>     
+
+		    <div class="form-items">
+		        <label for="email" class="form-input header">Email Address</label>
+		        <input id="email" class="form-input" type="email" placeholder="jane.smith@.edu">
+			</div>
+
+	        <div class="pure-u-1 form-items">
+				<div class="pure-u-1-2 lstcollft" style="margin-left: 0px;">
+					<button class="button-large pure-button btns_sfont" id="_addContact" >Add Contact</button>
+				</div>	
+				<div class="pure-u-1-2 lstcolrgt" style="margin-right: 0px;">
+					<button class="button-large pure-button btns_sfont" id="_clearContact" >Clear</button>
+				</div>
+			</div>
+
+		</form>
+	</div>		
+</div>
+
+<div class="fragment" id="_gesture">
+
+	<p class="header">Gesture practice</p>
+
+	<div class="pure-g ">
+
+		<form class="pure-form pure-form-stacked pure-u-1" id="_gestureform">
+		    <div class="form-items"> 
+		        <input id="gesture_output" class="form-input" type="text">
+		    </div>
+		</form>
+
+
+		<div class="gesture_area" id="_gesturearea">
+			
+
+		</div>
+
+	</div>		
+</div>		
+
+</div>			
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="phone.js"></script>
+	</body>
+
+</html>
+
