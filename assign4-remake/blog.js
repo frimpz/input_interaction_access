@@ -28,18 +28,26 @@ $("#savebtn").click(function() {
 
 
 $("#_close").click(function() { 
+	$(modal).hide();
 	if(status == 1){
 		clear();
 	}
-	$(modal).hide();
+	else{
+		 $("#email").focus();
+	}
+	
 });
 $(window).click(function(event) {
 	 if (event.target.id == modal.attr('id')) {
+	 	$(modal).hide();
 	 	if(status == 1){
 		clear();
 	}
-    	$(modal).hide();
+	else{
+
+    	 $("#email").focus();
   }
+	}
 });
 
 function validateEmail($email) {
