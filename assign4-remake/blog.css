@@ -226,5 +226,18 @@ ul{
   }
 
   .table_of_content{
-  	background-color: rgba(0,0,0,0.2);
+  	background-color: rgba(0,0,0,0.4);
+  }
+
+   .table_of_content a{
+    color: #000083;
+  }
+
+.table_of_content a:visited{
+    color: #000046;
+  }
+
+.table_of_content a:hover,
+.table_of_content a:focus{
+    color: #2020ff;
   }
