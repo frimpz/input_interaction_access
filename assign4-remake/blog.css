@@ -171,6 +171,13 @@ ul{
 	list-style-type: none;
 }
 
+.error{
+  color: red;
+}
+
+.sent{
+  color: green;
+}
 
 /******************************************************/
 
