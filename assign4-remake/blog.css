@@ -226,7 +226,7 @@ ul{
   }
 
   .table_of_content{
-  	background-color: grey;
+  	background-color: rgba(0,0,0,0);
   }
 
    .table_of_content a{
