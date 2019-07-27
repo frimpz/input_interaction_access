@@ -25,6 +25,7 @@ function create(x) {
 	var currentImg = "";
 	x= x.trim();
 	x = x.replace(/ +(?= )/g,'');
+	x = x.toLowerCase();
 	subs = x.split(" ");
 	for ( var i = 0; i < subs.length; i++ ){
 		if(i%3==0){
