@@ -1,0 +1,360 @@
+<html>
+
+	<head>
+		<title> Assignment 6</title>
+			<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link id="_css" rel="stylesheet" href="phone.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	</head>
+
+	<body>
+
+<div class="outerdiv">
+<!-- tabs div contains the tabs-->
+
+<div class="font_row">
+	<a  id="_fontChange"><i aria-label="font_size"  class="fa fa-font circle-icon"></i><span>font size</span></a>
+	<a  id="_colorChange"><i aria-label="page-color"  class="fas fa-yin-yang circle-icon"></i><span>font size</span></a>
+</div>
+<div style="clear:both"></div>
+<div class="pure-g tabs_row">
+				
+			<div class="pure-u-1-4 tabcol btn_active" id="dialer_tab_div">
+				<button class=" pure-button  btns_sfont" id="dialer_tab">Dialer</button>
+			</div>
+			<div class="pure-u-1-4 tabcol" id="contact_tab_div">
+				<button class=" pure-button btns_sfont" id="contact_tab">Address Book</button>
+			</div>
+			<div class="pure-u-1-4 tabcol" id="add_tab_div">
+				<button class=" pure-button btns_sfont" id="add_tab">Add Contact</button>
+			</div>
+			<div class="pure-u-1-4 tabcol" id="about_tab_div">
+				<button class=" pure-button btns_sfont" id="about_tab">About</button>
+			</div>
+</div>
+
+
+<!-- content div contains all three different fragments-->
+<div id="_dialer" class="fragment">
+
+	<div class="header"><p>Dialer</p></div>
+
+		<div class="top">
+			<div class="_disp">
+				<input class="pure-input-1"id="_screen" type="tel" maxlength="15" placeholder="+1 256 899 0981"/>
+			</div>
+		</div>	
+			
+		<div class="pure-g bottom">
+			<div class="pure-u-1-3 keypadcol">
+				<button class="button-large pure-button no_btns" value="1" id="_1">1</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="2" id="_2">2</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="3" id="_3">3</button>
+			</div>
+			<div class="pure-u-1-3 keypadcol">
+				<button class="button-large pure-button no_btns" value="4" id="_4">4</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="5" id="_5">5</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="6" id="_6">6</button>
+			</div>
+			<div class="pure-u-1-3 keypadcol">
+				<button class="button-large pure-button no_btns" value="7" id="_7">7</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="8" id="_8">8</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="9" id="_9">9</button>
+			</div>
+			<div class="pure-u-1-3 keypadcol">
+				<button class="button-large pure-button no_btns" value="*" id="_star">*</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="0" id="_0">0</button>
+			</div>	
+			<div class="pure-u-1-3 keypadcol">	
+				<button class="button-large pure-button no_btns" value="#" id="_hash">#</button>
+			</div>
+			<div class="pure-u-1 ">
+				<div class="pure-u-1-2 lstcollft" style="float: left;">
+					<button class="button-large pure-button btns_sfont" id="_dial">Dial</button>
+				</div>	
+				<div class="pure-u-1-2 lstcolrgt" style="float:right;">	
+					<button class="button-large pure-button btns_sfont" id="_clear">Clear</button>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class="fragment " id="_contact">
+
+	<div class="header"><p>Contact List</p></div>
+
+		<div class="pure-g bottom contact_bottom">
+
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Dirk Schnelle</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Coca Cola Co Ltd</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Company</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Keith Green</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Tyler Perry</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Sheldon Cooper</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Way Nation & Way Fm</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Company</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">First Title Company</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Company</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Scoot Fowler</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Bernadette rostenkowski</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">City of Waco Water Department</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Company</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Robert Drake</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Leonard Nimoy</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Leonard Hofstadter</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">William Shatner</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">	
+						Baylor University</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Company</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Howard Wolowitz</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Dr Pepper Snapple Group</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Company</p>
+				</div>
+			</div>
+			<div class="pure-u-1 contacts">
+				<div class="rw1 pure-g">
+					<p class="pure-u-2-3" style="float: right;">Dirk Schnelle</p>
+					<p></p>
+				</div>
+				<div class="rw2 pure-g">
+					<p class="pure-u-2-3" style="float: right;">(254)-xxx-xxxx</p>
+					<p class="pure-u-1-3"style="float: left;">Person</p>
+				</div>
+			</div>
+		</div>
+</div>
+
+<div class="fragment" id="_add">
+
+	<div class="header"><p>Add Contact</p></div>
+	<div class="addContactMargin"></div>
+	<div class="pure-g bottom">
+
+		<form class="pure-form pure-form-stacked pure-u-1" id="_addform">
+
+		    <div class="form-items"> 
+		        <label for="name" class="form-input">Name</label>
+		        <input id="name" class="form-input" type="text" placeholder="Jane Smith">
+		    </div>
+
+		    <div class="form-items">
+		        <label for="phone_no" class="form-input">Phone Number</label>
+		        <input id="phone_no" class="form-input" type="tel" placeholder="123-456-7890" >
+		    </div>     
+
+		    <div class="form-items">
+		        <label for="email" class="form-input">Email Address</label>
+		        <input id="email" class="form-input" type="email" placeholder="jane.smith@.edu">
+			</div>
+
+	        <div class="pure-u-1 form-items">
+				<div class="pure-u-1-2 lstcollft" style="margin-left: 0px;">
+					<button class="button-large pure-button btns_sfont" id="_addContact" >Add Contact</button>
+				</div>	
+				<div class="pure-u-1-2 lstcolrgt" style="margin-right: 0px;">
+					<button class="button-large pure-button btns_sfont" id="_clearContact" >Clear</button>
+				</div>
+			</div>
+
+		</form>
+	</div>		
+</div>
+
+<div id="_about" class="fragment">
+	<div class="header"><p>About</p></div>
+	<div class="aboutMargin"></div>
+		<div class="bottom about_section">
+			<p>
+				<h4>Things done in this assignment</h4>
+				<ul>
+					<li>Added two buttons to toggle new features, first button toggles between the original design and high contrast mode. The second button toggles between two font sizes.</li>
+					<li>Using a single HTML and  JQuery to switch between style sheets. </li>
+					<li>Adding two types of contacts. </li>
+					<li>Controls added to enable the user toggle features like white-on-black mode and change font size. </li>
+					<li>Added two other css to toggle between original colours and white on black mode. </li>
+				</ul>
+			</p>
+			<p>
+				<h4>Testing Magnifier</h4>
+				<ul>
+					<li>The size of the words and letters in general were large enough to be seen easily however most of the contents could not fit within the screen width.</li>
+					<li>Horizontal scrolling was used to show the words, but this makes the reading discontinuous and hence slow.</li>
+					<li>For high contrast most the words were clearly seen, but the backgroud was unappealing.</li>
+				</ul>
+			</p>
+		</div>
+</div>
+
+
+<div class="swipe_tab" id="swipe_tabs">
+</div>		
+
+</div>			
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="phone.js"></script>
+	</body>
+
+</html>
+
